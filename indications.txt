@@ -1,0 +1,42 @@
+Partiel Reass
+
+Q2
+Si l modélisation des VE les resultats sont pas cohérents (prix a 100%) on peut modifier le programme de réassurance (5 XS 125)
+
+Q3 
+Slide 4 TVE : distribution des dépassement (mean excess function, Hill) (moment ou ca devient linéaire, moment ou ca se stabilise) 
+estimer la pente pour remonter à la valeur de Xi, (beta, alpha ,) 3 approches pour estimer les param
+
+
+On calibre le dépassement par rapport au seuil, en dessous du seuil c’est des lois usuelles 
+
+Log normale sur historique au global, trouver U on est au dessus des valeurs extrêmes, des qu’on simule et qu’on dépasse, on simule un dépassement avec la GPD ou autre, donne log normal + queue épaisse 
+A gauche de U : attritionnle, a droite : extreme 
+
+On peut simuler et tarifer
+
+
+Q4
+
+Prendre rétention d’une année, les sommer, et faire passer ca dans un b XS a , y aura une rétention finale 
+
+Reconstitution : b XS a , si un sinistre qui survient : si on a tout consommer, le prochain sin ne sera pas indemne, si un sin consomme une partie de la tranche, le reste indemnisera au max du prochain sin. 
+Si on pense qu’il y aura plus d’un sin
+
+Exprime en pct du prix initial de la tranche 
+Reconstruire en 120% : on peut consommer 2 fois la tranche : 1 fois normal,  autre fois a 120 % , on peut avoir autant de sinistre dans que ca n’excède pas 2 fois la portée 
+
+2 Greco en bas de programme, 1 en milieux
+
+
+E(L)  + Recon - Primes = 0 down estimer la prime 
+Prime = prime init + primes de rec = P0( 1 + 120%) checker les slides 
+
+
+Q5
+
+Faire un petit graphe SII
+
+Q6 
+Pas assez de tune pour acheter les deux : proposer un top and drop
+Mutualisation de tranche : acheter les 2 mais ne consommer que l’un ou l’autre
