@@ -20,11 +20,13 @@ Q4
 
 Prendre rétention d’une année, les sommer, et faire passer ca dans un b XS a , y aura une rétention finale 
 
-Reconstitution : b XS a , si un sinistre qui survient : si on a tout consommer, le prochain sin ne sera pas indemne, si un sin consomme une partie de la tranche, le reste indemnisera au max du prochain sin. 
+Reconstitution : b XS a , si un sinistre qui survient : si on a tout consommer, le prochain sin ne sera 
+pas indemne, si un sin consomme une partie de la tranche, le reste indemnisera au max du prochain sin. 
 Si on pense qu’il y aura plus d’un sin
 
 Exprime en pct du prix initial de la tranche 
-Reconstruire en 120% : on peut consommer 2 fois la tranche : 1 fois normal,  autre fois a 120 % , on peut avoir autant de sinistre dans que ca n’excède pas 2 fois la portée 
+Reconstruire en 120% : on peut consommer 2 fois la tranche : 1 fois normal,  autre fois a 120 % , 
+on peut avoir autant de sinistre dans que ca n’excède pas 2 fois la portée 
 
 2 Greco en bas de programme, 1 en milieux
 
